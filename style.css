@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     background-color: grey;
 }
@@ -21,6 +23,15 @@ h1 {
 
 @media (max-width: 768px) {
 
+    .full-images {
+        position: fixed;
+        top: 30%;
+        transform: translateY(-50%);
+        margin: auto;
+        scale: .35;
+        z-index: 2;
+        object-fit: contain;
+    }
 
     
 .light_switch {
@@ -44,6 +55,166 @@ h1 {
     height: 100%;
     
     z-index: 3;
+}
+
+#img-full-1 {
+    position: absolute;
+    visibility: hidden;
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+}
+
+#img-full-2 {
+    position: absolute;
+    visibility: hidden;
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+}
+
+#img-full-3 {
+    position: absolute;
+    visibility: hidden;
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+}
+
+#img-full-4 {
+    position: absolute;
+    visibility: hidden;
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+}
+
+#img-full-5 {
+    position: absolute;
+    visibility: hidden;
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+}
+
+#img-full-6 {
+    position: absolute;
+    visibility: hidden;
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+}
+
+#img-full-7 {
+    position: absolute;
+    visibility: hidden;
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+}
+
+#img-full-8 {
+    position: absolute;
+    visibility: hidden;
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+}
+
+#img-button-1 {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    left: 350px;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#img-button-2 {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    left: 600px;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#img-button-3 {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    left: 50px;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#img-button-4 {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    left: 370px;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#img-button-5 {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    left: 640px;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#img-button-6 {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    left: 940px;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#img-button-7 {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    left: 1200px;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#img-button-8 {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    left: 1470px;
+    top: 20px;
+    width: 200px;
+    height: 200px;
 }
 
 .container-holder {

@@ -39,12 +39,13 @@ h1 {
 
     .full-images {
         position: fixed;
-        top: 30%;
-        transform: translateY(-50%);
-        margin: auto;
-        scale: .35;
+        top: 10%;
+        left: -7%;
+        
+        
+        scale: .2;
         z-index: 2;
-        object-fit: contain;
+        
     }
 
     
@@ -220,8 +221,8 @@ h1 {
     border: none;
     cursor: pointer;
     z-index: 2;
-    left: 1520px;
-    top: 20px;
+    left: 1470px;
+    top: 10px;
     width: 200px;
     height: 200px;
 }
@@ -232,8 +233,8 @@ h1 {
     border: none;
     cursor: pointer;
     z-index: 2;
-    left: 1850px;
-    top: 20px;
+    left: 1800px;
+    top: 10px;
     width: 200px;
     height: 200px;
 }
@@ -244,8 +245,8 @@ h1 {
     width: 100vw;
     height: auto;
     justify-content: center;
-    right: 90px;
-    transform: scale(.5);
+    right: 21%;
+    transform: scale(.45);
     width: 100%;
 }
 

@@ -245,8 +245,8 @@ h1 {
     width: 100vw;
     height: auto;
     justify-content: center;
-    right: 5%;
-    transform: scale(.50);
+    
+    transform: scale(.55);
     width: 100%;
 }
 

@@ -243,8 +243,9 @@ h1 {
     display: flex;
     width: 100vw;
     height: auto;
-    right:40%;
-    transform: scale(.55);
+    justify-content: center;
+    right: 30px;
+    transform: scale(.5);
     width: 100%;
 }
 
@@ -262,7 +263,7 @@ h1 {
 .slider {
     position: relative;
     display: flex;
-    overflow-x: hidden;
+    overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     width: 200px;
@@ -676,7 +677,7 @@ z-index: 1;
         width: 100vw;
         height: auto;
         transform: scale(.9);
-        right: 15%;
+        justify-content: center;
     }
     
     .container {
@@ -687,13 +688,13 @@ z-index: 1;
         position: relative;
         max-width: 37rem;
         margin: 0 auto;
-        left: 60px;
+        
     }
     
     .slider {
         position: relative;
         display: flex;
-        overflow-x: hidden;
+        overflow-x: auto;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
         width: 200px;
@@ -713,12 +714,12 @@ z-index: 1;
         position: relative;
         text-align: center;
         top:8%;
-        left: 30%;
+        
     }
     
     .models {
         position: relative;
-        left: 30%;
+        
         margin-top: 10%;
     }
     
@@ -822,7 +823,7 @@ z-index: 1;
         column-gap: 3rem;
         position: relative;
         top: 8%;
-        left: 48%;
+        left: 18%;
         z-index: 1;
     }
     

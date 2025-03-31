@@ -246,7 +246,7 @@ h1 {
     height: auto;
     justify-content: center;
     right: 18%;
-    margin-left: 25px;
+    margin: auto;
     transform: scale(.45);
     width: 100%;
 }

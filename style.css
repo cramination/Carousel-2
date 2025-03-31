@@ -245,7 +245,7 @@ h1 {
     width: 100vw;
     height: auto;
     justify-content: center;
-    right: 15%;
+    right: 20%;
     transform: scale(.45);
     width: 100%;
 }
@@ -267,6 +267,7 @@ h1 {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
+    
     width: 200px;
     height: 200px;
     background: rgba(255, 255, 255, 0.2);

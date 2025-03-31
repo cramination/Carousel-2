@@ -10,10 +10,7 @@ body {
     background-color: grey;
 }
 
-video {
-    width: 100%;
-    height: auto;
-}
+
 
 h1 {
     height: 30px;
@@ -22,6 +19,23 @@ h1 {
 /* Styles for smaller screens (mobile) */
 
 @media (max-width: 768px) {
+
+
+    .name {
+        position: absolute;
+        font-size: 1.6em;
+        z-index: 6;
+        top: 5%;
+        right: 16%;
+        color: ghostwhite;
+    }
+
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+
 
     .full-images {
         position: fixed;
@@ -60,10 +74,13 @@ h1 {
 #img-full-1 {
     position: absolute;
     visibility: hidden;
-    top: 60px;
-    left: 60px;
+    transform: scale(3);
+    top: 400px;
+    left: 700px;
     z-index: 1;
 }
+
+
 
 #img-full-2 {
     position: absolute;
@@ -121,14 +138,18 @@ h1 {
     z-index: 1;
 }
 
+.img-button {
+    scale: .8;
+}
+
 #img-button-1 {
     position: absolute;
     background: none;
     border: none;
     cursor: pointer;
     z-index: 2;
-    left: 350px;
-    top: 20px;
+    left: 330px;
+    top: 0px;
     width: 200px;
     height: 200px;
 }
@@ -139,8 +160,8 @@ h1 {
     border: none;
     cursor: pointer;
     z-index: 2;
-    left: 600px;
-    top: 20px;
+    left: 660px;
+    top: 0px;
     width: 200px;
     height: 200px;
 }
@@ -175,7 +196,7 @@ h1 {
     border: none;
     cursor: pointer;
     z-index: 2;
-    left: 640px;
+    left: 820px;
     top: 20px;
     width: 200px;
     height: 200px;
@@ -187,7 +208,7 @@ h1 {
     border: none;
     cursor: pointer;
     z-index: 2;
-    left: 940px;
+    left: 1190px;
     top: 20px;
     width: 200px;
     height: 200px;
@@ -199,7 +220,7 @@ h1 {
     border: none;
     cursor: pointer;
     z-index: 2;
-    left: 1200px;
+    left: 1520px;
     top: 20px;
     width: 200px;
     height: 200px;
@@ -211,7 +232,7 @@ h1 {
     border: none;
     cursor: pointer;
     z-index: 2;
-    left: 1470px;
+    left: 1850px;
     top: 20px;
     width: 200px;
     height: 200px;
@@ -222,7 +243,7 @@ h1 {
     display: flex;
     width: 100vw;
     height: auto;
-    right: 30%;
+    right:40%;
     transform: scale(.55);
     width: 100%;
 }
@@ -241,7 +262,7 @@ h1 {
 .slider {
     position: relative;
     display: flex;
-    overflow-x: auto;
+    overflow-x: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     width: 200px;
@@ -277,19 +298,81 @@ h1 {
     top: 78%;
 }
 
-.beach {
-    right: 40%;
+.computer-title {
+    right: 50%;
+    top: 15px;
+}
+
+.beach  {
+    right: 80%;
+    top: 10px;
 }
 
 .bingo {
+    right: 80%;
+    top: 10px;
+}
+
+.portfolio {
+    right: 45%;
+    top: 10px;
+}
+
+.reel {
+    right: 35%;
+    top: 10px;
+}
+
+.sports {
     right: 40%;
+    top: 10px;
+}
+
+.artschool {
+    right: 50%;
+    top: 10px;
+}
+
+.steps {
+    right: 40%;
+    top: 10px;
+}
+
+.intro {
+    right: 95%;
+    top: 10px;
+}
+
+.graph {
+    right: 85%;
+    top: 10px;
+}
+
+.pros {
+    right: 85%;
+    top: 10px;
+}
+
+.charts {
+    right: 85%;
+    top: 10px;
+}
+
+.charts-2 {
+    right: 85%;
+    top: 10px;
+}
+
+.model-title {
+    right: 85%;
+    top: 10px;
 }
 
 .slide-image {
     border-radius: 50%;
     position: relative;
     transform: translateX(50px);
-    top: 10%;
+    top: 25%;
     flex: 1 0 100%;
     scroll-snap-align: center;
     width: 130px;
@@ -298,6 +381,10 @@ h1 {
 
 }
 
+.down-scale {
+    transform: scaleX(.7);
+    top: 40px;
+}
 
 
 .slider-nav {
@@ -338,7 +425,7 @@ z-index: 1;
 
     .slider-nav-3 {
         display: flex;
-        column-gap: 1.5rem;
+        column-gap: 1.2rem;
         position: relative;
         margin-top: 10%;
         
@@ -363,10 +450,35 @@ z-index: 1;
 }
 
 
- /* Styles for larger screens (desktop) */
+ /* Styles for large screens (desktop) */
 
  @media (min-width: 768px) {
     
+    .name {
+        position: absolute;
+        font-size: 3em;
+        z-index: 6;
+        top: 10%;
+        right: 16%;
+        color: ghostwhite;
+    }
+
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    .full-images {
+        position: fixed;
+        top: 20%;
+        transform: translateY(-50%);
+        margin: auto;
+        scale: .5;
+        z-index: 2;
+        object-fit: contain;
+    }
+
     .light_switch {
         height: 20rem;
         width: 14rem;
@@ -374,19 +486,197 @@ z-index: 1;
         top: 6%;
         left: 30px;
         transform: translate(3.1rem, 2rem);
-        
+        background: none;
         border: none;
         font-size:0;
         z-index: 5;
     }
 
+    #hide-button {
+        position: fixed;
+        display: none;
+        background: none;
+        width: 100%;
+        height: 100%;
+        
+        z-index: 3;
+    }
+    
+    #img-full-1 {
+        position: absolute;
+        visibility: hidden;
+        transform: scale(3);
+        top: 400px;
+        left: 610px;
+        z-index: 1;
+    }
+    
+    #img-full-2 {
+        position: absolute;
+        visibility: hidden;
+        scale: .9;
+        top: 60px;
+        left: -60px;
+        z-index: 1;
+    }
+    
+    #img-full-3 {
+        position: absolute;
+        visibility: hidden;
+        top: 60px;
+        left: 60px;
+        z-index: 1;
+    }
+    
+    #img-full-4 {
+        position: absolute;
+        visibility: hidden;
+        top: 60px;
+        left: 60px;
+        z-index: 1;
+    }
+    
+    #img-full-5 {
+        position: absolute;
+        visibility: hidden;
+        top: 60px;
+        left: 60px;
+        z-index: 1;
+    }
+    
+    #img-full-6 {
+        position: absolute;
+        visibility: hidden;
+        top: 60px;
+        left: 60px;
+        z-index: 1;
+    }
+    
+    #img-full-7 {
+        position: absolute;
+        visibility: hidden;
+        top: 60px;
+        left: 60px;
+        z-index: 1;
+    }
+    
+    #img-full-8 {
+        position: absolute;
+        visibility: hidden;
+        top: 60px;
+        left: 60px;
+        z-index: 1;
+    }
+    
+    .img-button {
+        scale: .85;
+    }
+    
+    #img-button-1 {
+        position: absolute;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+        left: 350px;
+        top: 0px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    #img-button-2 {
+        position: absolute;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+        left: 680px;
+        top: 0px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    #img-button-3 {
+        position: absolute;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+        left: 30px;
+        top: 10px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    #img-button-4 {
+        position: absolute;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+        left: 430px;
+        top: 0px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    #img-button-5 {
+        position: absolute;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+        left: 770px;
+        top: 0px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    #img-button-6 {
+        position: absolute;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+        left: 1140px;
+        top: 0px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    #img-button-7 {
+        position: absolute;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+        left: 1470px;
+        top: 0px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    #img-button-8 {
+        position: absolute;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+        left: 1800px;
+        top: 0px;
+        width: 200px;
+        height: 200px;
+    }
+    
+
     .container-holder {
         position: relative;
         display: flex;
+        top: 70px;
         width: 100vw;
         height: auto;
-        transform: scale(1.1);
-        right: 0%;
+        transform: scale(.9);
+        right: 15%;
     }
     
     .container {
@@ -403,19 +693,117 @@ z-index: 1;
     .slider {
         position: relative;
         display: flex;
-        overflow-x: auto;
+        overflow-x: hidden;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
         width: 200px;
         height: 200px;
-        background-color: aquamarine;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 20%;
     }
     
+    .section_title {
+        position: relative;
+        justify-content: center;
+        bottom: 60px;
+        left: 50%;
+    }
+    
+    .projects {
+        position: relative;
+        text-align: center;
+        top:8%;
+        left: 30%;
+    }
+    
+    .models {
+        position: relative;
+        left: 30%;
+        margin-top: 10%;
+    }
+    
+    .title {
+        position: relative;
+        right: 50%;
+        top: 78%;
+    }
+    
+    .computer-title {
+        right: 54%;
+        top: 8px;
+    }
+    
+    .beach  {
+        right: 80%;
+        top: 10px;
+    }
+    
+    .bingo {
+        right: 80%;
+        top: 10px;
+    }
+    
+    .portfolio {
+        right: 50%;
+        top: 10px;
+    }
+    
+    .reel {
+        right: 40%;
+        top: 10px;
+    }
+    
+    .sports {
+        right: 45%;
+        top: 10px;
+    }
+    
+    .artschool {
+        right: 55%;
+        top: 10px;
+    }
+    
+    .steps {
+        right: 45%;
+        top: 10px;
+    }
+    
+    .intro {
+        right: 95%;
+        top: 10px;
+    }
+    
+    .graph {
+        right: 85%;
+        top: 10px;
+    }
+    
+    .pros {
+        right: 85%;
+        top: 10px;
+    }
+    
+    .charts {
+        right: 85%;
+        top: 10px;
+    }
+    
+    .charts-2 {
+        right: 85%;
+        top: 10px;
+    }
+    
+    .model-title {
+        right: 85%;
+        top: 10px;
+    }
+    
+
     .slide-image {
         border-radius: 50%;
         position: relative;
         transform: translateX(50px);
-        top: 10%;
+        top: 18%;
         flex: 1 0 100%;
         scroll-snap-align: center;
         width: 150px;
@@ -424,20 +812,23 @@ z-index: 1;
     
     }
     
-    
+    .down-scale {
+        transform: scaleX(.75);
+        top: 40px;
+    }
     
     .slider-nav {
-    display: flex;
-    column-gap: 1rem;
-    position: relative;
-    bottom: 10%;
-    left: 50%;
-    z-index: 1;
+        display: flex;
+        column-gap: 3rem;
+        position: relative;
+        top: 8%;
+        left: 48%;
+        z-index: 1;
     }
     
     .slider-nav a {
-        width: .6rem;
-        height: .6rem;
+        width: 1rem;
+        height: 1rem;
         border-radius: 50%;
         background-color: #fff;
         opacity: .75;
@@ -446,34 +837,34 @@ z-index: 1;
     
     .slider-nav-2 {
         display: flex;
-        column-gap: 1rem;
-        position: absolute;
-        bottom: 10%;
-        left: 50%;
-        z-index: 1;
+    column-gap: 1.7rem;
+    position: relative;
+    margin-top: 10%;
+    left: 5%;
+    z-index: 1;
         }
     
     .slider-nav-2 a {
-        width: .6rem;
-        height: .6rem;
-        border-radius: 50%;
-        background-color: #fff;
-        opacity: .75;
-        transition: opacity ease 250ms;
+        width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: .75;
+    transition: opacity ease 250ms;
         }
     
         .slider-nav-3 {
             display: flex;
-            column-gap: 1rem;
-            position: absolute;
-            bottom: 10%;
-            left: 50%;
-            z-index: 1;
+        column-gap: 1.5rem;
+        position: relative;
+        margin-top: 10%;
+        
+        z-index: 1;
             }
         
         .slider-nav-3 a {
-            width: .6rem;
-            height: .6rem;
+            width: 1rem;
+            height: 1rem;
             border-radius: 50%;
             background-color: #fff;
             opacity: .75;
@@ -488,28 +879,68 @@ z-index: 1;
     }
     
 
+    /* Styles for larger screens (4K) */
+
     @media (min-width: 1024px) {
-        .light_switch {
-            height: 28rem;
-            width: 20rem;
+
+        .name {
             position: absolute;
-            top: 6%;
-            left: 80px;
+            font-size: 6em;
+            z-index: 6;
+            top: 8%;
+            right: 3%;
+            color: ghostwhite;
+        }
+
+
+        video {
+            position: relative;
+            object-fit: cover;
+            
+        }
+
+        .full-images {
+            position: fixed;
+            top: 0%;
+            right: 98%;
+            transform: translateY(-50%);
+            margin: auto;
+            scale: .75;
+            z-index: 2;
+            object-fit: contain;
+        }
+
+        .lighthouse_container {
+            position: relative;
+            width: 100vw;
+            left: 50px;
+            scale: 1.1;
+        }
+
+
+
+        .light_switch {
+            height: 20rem;
+            width: 13rem;
+            position: absolute;
+            top: 5%;
+            left: 160px;
             transform: translate(3.1rem, 2rem);
-            background-color: aqua;
+            background-color: none;
             border: none;
             font-size:0;
             z-index: 5;
         }
     
         .container-holder {
-            position: relative;
+            position: absolute;
             display: flex;
             width: 100vw;
             height: auto;
-            transform: scale(1.2);
+            transform: scale(.8);
             margin-top: 4%;
-            left: 9%;
+            left: 30%;
+            top: 340px;
         }
         
         .container {
@@ -526,19 +957,118 @@ z-index: 1;
         .slider {
             position: relative;
             display: flex;
-            overflow-x: auto;
+            overflow-x: hidden;
             scroll-snap-type: x mandatory;
             scroll-behavior: smooth;
             width: 200px;
             height: 200px;
-            background-color: aquamarine;
+            background: rgba(255, 255, 255, 0.377);
+        }
+
+        .section_title {
+            position: relative;
+            text-align: center;
+            top: 8%;
+            left: 34%;
+            font-size: 2.5em;
+            color: antiquewhite;
         }
         
+        .projects {
+            position: relative;
+            text-align: center;
+            top:25%;
+            left: 30%;
+            color:bisque;
+        }
+        
+        .models {
+            position: relative;
+            left: 30%;
+            margin-top: -15px;
+        }
+        
+        .title {
+            position: relative;
+            right: 50%;
+            top: 78%;
+        }
+        
+        .computer-title {
+            right: 54%;
+            top: 10px;
+        }
+        
+        .beach  {
+            right: 80%;
+            top: 10px;
+        }
+        
+        .bingo {
+            right: 80%;
+            top: 10px;
+        }
+        
+        .portfolio {
+            right: 49%;
+            top: 10px;
+        }
+        
+        .reel {
+            right: 41%;
+            top: 10px;
+        }
+        
+        .sports {
+            right: 46%;
+            top: 10px;
+        }
+        
+        .artschool {
+            right: 55%;
+            top: 10px;
+        }
+        
+        .steps {
+            right: 46%;
+            top: 10px;
+        }
+        
+        .intro {
+            right: 95%;
+            top: 10px;
+        }
+        
+        .graph {
+            right: 85%;
+            top: 10px;
+        }
+        
+        .pros {
+            right: 92%;
+            top: 10px;
+        }
+        
+        .charts {
+            right: 85%;
+            top: 10px;
+        }
+        
+        .charts-2 {
+            right: 85%;
+            top: 10px;
+        }
+        
+        .model-title {
+            right: 85%;
+            top: 10px;
+        }
+
         .slide-image {
             border-radius: 50%;
             position: relative;
             transform: translateX(50px);
-            top: 10%;
+            top: 20%;
             flex: 1 0 100%;
             scroll-snap-align: center;
             width: 150px;
@@ -547,20 +1077,23 @@ z-index: 1;
         
         }
         
-        
+        .down-scale {
+            transform: scaleX(.8);
+            top: 40px;
+        }
         
         .slider-nav {
         display: flex;
-        column-gap: 1rem;
+        column-gap: 2.5rem;
         position: relative;
         bottom: 10%;
-        left: 50%;
+        left: 47%;
         z-index: 1;
         }
         
         .slider-nav a {
-            width: .6rem;
-            height: .6rem;
+            width: 1rem;
+            height: 1rem;
             border-radius: 50%;
             background-color: #fff;
             opacity: .75;
@@ -569,16 +1102,16 @@ z-index: 1;
         
         .slider-nav-2 {
             display: flex;
-            column-gap: 1rem;
+            column-gap: 1.8rem;
             position: absolute;
-            bottom: 10%;
-            left: 50%;
+            bottom: -20%;
+            left: 5px;
             z-index: 1;
             }
         
         .slider-nav-2 a {
-            width: .6rem;
-            height: .6rem;
+            width: 1rem;
+            height: 1rem;
             border-radius: 50%;
             background-color: #fff;
             opacity: .75;
@@ -587,16 +1120,16 @@ z-index: 1;
         
             .slider-nav-3 {
                 display: flex;
-                column-gap: 1rem;
+                column-gap: 1.2rem;
                 position: absolute;
-                bottom: 10%;
-                left: 50%;
+                bottom: -20%;
+                left: 5px;
                 z-index: 1;
                 }
             
             .slider-nav-3 a {
-                width: .6rem;
-                height: .6rem;
+                width: 1rem;
+                height: 1rem;
                 border-radius: 50%;
                 background-color: #fff;
                 opacity: .75;

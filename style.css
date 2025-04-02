@@ -47,7 +47,7 @@ html {
         
         
         scale: .2;
-        z-index: 2;
+        z-index: 6;
         
     }
 
@@ -493,7 +493,7 @@ z-index: 1;
     .name {
         position: absolute;
         font-size: 3em;
-        z-index: 6;
+        z-index: 4;
         top: 10%;
         right: 16%;
         color: ghostwhite;
@@ -511,7 +511,7 @@ z-index: 1;
         transform: translateY(-50%);
         margin: auto;
         scale: .5;
-        z-index: 2;
+        z-index: 5;
         object-fit: contain;
     }
 

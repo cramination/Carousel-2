@@ -72,6 +72,7 @@ html {
     font-size:0;
     z-index: 5;
     display: block;
+
 }
 
 .resume-button {
@@ -384,7 +385,7 @@ html {
 }
 
 .pros {
-    right: 85%;
+    right: 90%;
     top: 10px;
 }
 
@@ -399,7 +400,7 @@ html {
 }
 
 .model-title {
-    right: 85%;
+    right: 94%;
     top: 10px;
 }
 

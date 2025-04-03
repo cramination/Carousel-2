@@ -171,6 +171,34 @@ html {
     z-index: 1;
 }
 
+#img-full-9 {
+    position: absolute;
+    visibility: hidden;
+    scale: 2.7;
+    top: 550px;
+    left:710px;
+    z-index: 1;
+}
+
+#img-full-10 {
+    position: absolute;
+    visibility: hidden;
+    scale: 1.25;
+    top: 500px;
+    left:360px;
+    z-index: 1;
+}
+
+#img-full-11 {
+    position: absolute;
+    visibility: hidden;
+    transform: rotate(90deg);
+    scale: .85;
+    top: 150px;
+    left: 325px;
+    z-index: 1;
+}
+
 .img-button {
     scale: .8;
 }
@@ -266,6 +294,42 @@ html {
     cursor: pointer;
     z-index: 2;
     left: 1800px;
+    top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+#img-button-9 {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    left: 945px;
+    top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+#img-button-10 {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    left: 1255px;
+    top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+#img-button-11 {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    left: 1565px;
     top: 10px;
     width: 200px;
     height: 200px;
@@ -425,10 +489,10 @@ html {
 
 .slider-nav {
 display: flex;
-column-gap: 3rem;
+column-gap: 1.2rem;
 position: relative;
 top: 8%;
-left: 48%;
+left: 33%;
 z-index: 1;
 }
 
@@ -731,6 +795,42 @@ z-index: 1;
         width: 200px;
         height: 200px;
     }
+
+    #img-button-9 {
+        position: absolute;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+        left: 945px;
+        top: 10px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    #img-button-10 {
+        position: absolute;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+        left: 1255px;
+        top: 10px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    #img-button-11 {
+        position: absolute;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+        left: 1565px;
+        top: 10px;
+        width: 200px;
+        height: 200px;
+    }
     
 
     .container-holder {
@@ -883,10 +983,10 @@ z-index: 1;
     
     .slider-nav {
         display: flex;
-        column-gap: 3rem;
+        column-gap: 1.5rem;
         position: relative;
         top: 8%;
-        left: 18%;
+        
         z-index: 1;
     }
     
@@ -1177,10 +1277,10 @@ z-index: 1;
         
         .slider-nav {
         display: flex;
-        column-gap: 2.5rem;
+        column-gap: 1.5rem;
         position: relative;
         bottom: 10%;
-        left: 47%;
+        left: 28%;
         z-index: 1;
         }
         

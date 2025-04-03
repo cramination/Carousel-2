@@ -93,6 +93,30 @@ function showButton8() {
     document.getElementById('switch')
         .style.display = "none";
 }
+function showButton9() {
+    document.getElementById('img-full-9')
+        .style.visibility = "visible";
+    document.getElementById('hide-button')
+        .style.display = "block";
+    document.getElementById('switch')
+        .style.display = "none";
+}
+function showButton10() {
+    document.getElementById('img-full-10')
+        .style.visibility = "visible";
+    document.getElementById('hide-button')
+        .style.display = "block";
+    document.getElementById('switch')
+        .style.display = "none";
+}
+function showButton11() {
+    document.getElementById('img-full-11')
+        .style.visibility = "visible";
+    document.getElementById('hide-button')
+        .style.display = "block";
+    document.getElementById('switch')
+        .style.display = "none";
+}
 
 function hideButton() {
     document.getElementById('img-full-1')
@@ -110,6 +134,12 @@ function hideButton() {
     document.getElementById('img-full-7')
         .style.visibility = "hidden";
     document.getElementById('img-full-8')
+        .style.visibility = "hidden";
+    document.getElementById('img-full-9')
+        .style.visibility = "hidden";
+    document.getElementById('img-full-10')
+        .style.visibility = "hidden";
+    document.getElementById('img-full-11')
         .style.visibility = "hidden";
     document.getElementById('hide-button')
     .style.display = "none";

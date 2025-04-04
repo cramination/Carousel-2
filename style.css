@@ -695,6 +695,34 @@ z-index: 1;
         left: 60px;
         z-index: 1;
     }
+
+    #img-full-9 {
+        position: absolute;
+        visibility: hidden;
+        scale: 2.7;
+        top: 550px;
+        left:710px;
+        z-index: 1;
+    }
+    
+    #img-full-10 {
+        position: absolute;
+        visibility: hidden;
+        scale: 1.25;
+        top: 500px;
+        left:360px;
+        z-index: 1;
+    }
+    
+    #img-full-11 {
+        position: absolute;
+        visibility: hidden;
+        transform: rotate(90deg);
+        scale: .85;
+        top: 150px;
+        left: 325px;
+        z-index: 1;
+    }
     
     .img-button {
         scale: .85;
